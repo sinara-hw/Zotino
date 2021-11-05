@@ -17,12 +17,12 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Zotino.OutJob
 Description=
-TargetOutputMedium=PDF
+TargetOutputMedium=Folder Structure
 VariantName=QFN
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+TargetPrinter=Brother DCP-L2540DN series
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
 OutputMedium1_Printer=
@@ -33,16 +33,19 @@ OutputMedium3=Folder Structure
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
+OutputMedium5=Zotino-schematics
+OutputMedium5_Type=Publish
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
 OutputDocumentPath1=[Project Physical Documents]
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -52,11 +55,12 @@ OutputName2=PCB 3D Print
 OutputCategory2=Documentation
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=2
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.86|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
@@ -66,25 +70,27 @@ OutputName3=Copy of PCB 3D Print
 OutputCategory3=Documentation
 OutputDocumentPath3=Zotino.PCBDOC
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=3
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.86|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig= 
+Configuration3_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39390063|ViewY=13602661|LookAtX=49004724|LookAtY=41584644|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.0205619625437E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=
 OutputType4=PCB Print
 OutputName4=PCB Prints
 OutputCategory4=Documentation
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=4
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
@@ -128,6 +134,7 @@ OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration5_Name1=OutputConfigurationParameter1
@@ -174,50 +181,54 @@ OutputName6=Generates pick and place files
 OutputCategory6=Assembly
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=0
+OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=4
 OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True
+Configuration6_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|DocumentPath=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Zotino\PCB\Zotino.PCBDOC
 OutputType7=Gerber
 OutputName7=Gerber Files
 OutputCategory7=Fabrication
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=3
 OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842754~1,16777218~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842754~1,16777218~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Zotino\PCB\Zotino.PCBDOC
 OutputType8=NC Drill
 OutputName8=NC Drill Files
 OutputCategory8=Fabrication
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=2
 OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium5=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
+Configuration8_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Zotino\PCB\Zotino.PCBDOC
 OutputType9=BOM_PartType
 OutputName9=Bill of Materials
 OutputCategory9=Report
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=0
+OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=1
 OutputEnabled9_OutputMedium4=0
+OutputEnabled9_OutputMedium5=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration9_Name1=ColumnNameFormat
@@ -234,6 +245,36 @@ Configuration9_Name6=SortOrder
 Configuration9_Item6=Designator=Up|Comment=Up|Footprint=Up
 Configuration9_Name7=VisibleOrder
 Configuration9_Item7=Comment=100|Description=100|Designator=100|Footprint=100|Manufacturer=100|Manufacturer Part Number=100|Manufacturer1 ComponentHeight=100|Manufacturer1 Example=100|Manufacturer1 Part Number=100|Part Description=100|Part Number=100|Quantity=100
+OutputType10=Schematic Print
+OutputName10=Copy of Schematic Prints
+OutputCategory10=Documentation
+OutputDocumentPath10=
+OutputVariantName10=
+OutputEnabled10=0
+OutputEnabled10_OutputMedium1=0
+OutputEnabled10_OutputMedium2=0
+OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium4=0
+OutputEnabled10_OutputMedium5=1
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType11=Board Stack Report
+OutputName11=Report Board Stack
+OutputCategory11=Fabrication
+OutputDocumentPath11=
+OutputVariantName11=
+OutputEnabled11=1
+OutputEnabled11_OutputMedium1=0
+OutputEnabled11_OutputMedium2=5
+OutputEnabled11_OutputMedium3=5
+OutputEnabled11_OutputMedium4=0
+OutputEnabled11_OutputMedium5=0
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration11_Name1=OutputConfigurationParameter1
+Configuration11_Item1=Record=LayerStackReportView|Units=Imperial|DocumentPath=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Zotino\PCB\Zotino.PCBDOC
 
 [PublishSettings]
 OutputFilePath2=D:\Dropbox\DESIGNS\MTCA_projects\SINARA\ARTIQ_ALTIUM\EEMs\Zotino\PCB\Project Outputs for Zotino\Zotino.PDF
@@ -313,6 +354,33 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
+OutputFilePath5=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Zotino\PCB\Project Outputs for Zotino\Zotino.PDF
+ReleaseManaged5=1
+OutputBasePath5=Project Outputs for Zotino
+OutputPathMedia5=
+OutputPathMediaValue5=
+OutputPathOutputer5=[Output Type]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=Zotino-shematics.PDF
+OutputFileNameMulti5=
+UseOutputNameForMulti5=0
+OutputFileNameSpecial5=
+OpenOutput5=1
+PromptOverwrite5=1
+PublishMethod5=0
+ZoomLevel5=50
+FitSCHPrintSizeToDoc5=1
+FitPCBPrintSizeToDoc5=1
+GenerateNetsInfo5=1
+MarkPins5=1
+MarkNetLabels5=1
+MarkPortsId5=1
+GenerateTOC5=1
+ShowComponentParameters5=1
+GlobalBookmarks5=0
+PDFACompliance5=Disabled
+PDFVersion5=Default
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=D:\Dropbox\DESIGNS\MTCA_projects\SINARA\ARTIQ_ALTIUM\EEMs\Zotino\PCB\Project Outputs for Zotino\Zotino.PDF
@@ -329,4 +397,6 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
+RelativeOutputPath5=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Zotino\PCB\Project Outputs for Zotino\Zotino.PDF
+OpenOutputs5=1
 
