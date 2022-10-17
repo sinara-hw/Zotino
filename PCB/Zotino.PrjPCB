@@ -24,6 +24,8 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
+AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -34,6 +36,13 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
+CurrentVariant=QFN
 
 [Preferences]
 PrefsVaultGUID=
@@ -199,7 +208,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -214,7 +223,7 @@ UniqueID=4E8EF4FA-1004-4098-BFB3-EC9401DFD915
 Description=QFN
 AllowFabrication=0
 ParameterCount=0
-VariationCount=27
+VariationCount=77
 Variation1=Designator=CLIP28|UniqueId=\YGSJQCSF|Kind=1|AlternatePart= 
 Variation2=Designator=CLIP29|UniqueId=\DPSAAHRU|Kind=1|AlternatePart= 
 Variation3=Designator=CLIP30|UniqueId=\TQEMVBGW|Kind=1|AlternatePart= 
@@ -242,11 +251,57 @@ Variation24=Designator=CLIP51|UniqueId=\YGQRDCVO|Kind=1|AlternatePart=
 Variation25=Designator=CLIP52|UniqueId=\HFKMYCTW|Kind=1|AlternatePart= 
 Variation26=Designator=CLIP27|UniqueId=\WCTNSGEY|Kind=1|AlternatePart= 
 Variation27=Designator=IC5|UniqueId=\KKGGCGQP\GNPRJQGO|Kind=1|AlternatePart= 
+Variation28=Designator=IC1|UniqueId=\YITOPIVH\UJYUXNZU|Kind=1|AlternatePart= 
+Variation29=Designator=R1|UniqueId=\YITOPIVH\OVPFIIAA|Kind=1|AlternatePart= 
+Variation30=Designator=R26|UniqueId=\YITOPIVH\RMZLKQZH|Kind=1|AlternatePart= 
+Variation31=Designator=R30|UniqueId=\YITOPIVH\JAIEPOAX|Kind=1|AlternatePart= 
+Variation32=Designator=R31|UniqueId=\YITOPIVH\PCNFQYHV|Kind=1|AlternatePart= 
+Variation33=Designator=R32|UniqueId=\YITOPIVH\RQFCWSVQ|Kind=1|AlternatePart= 
+Variation34=Designator=R4|UniqueId=\YITOPIVH\ORUTEGKG|Kind=1|AlternatePart= 
+Variation35=Designator=C150|UniqueId=\YITOPIVH\GBSPDOJX|Kind=0|AlternatePart= 
+Variation36=Designator=C151|UniqueId=\YITOPIVH\TEFACOGS|Kind=0|AlternatePart= 
+Variation37=Designator=IC35|UniqueId=\YITOPIVH\WWSNYIGT|Kind=1|AlternatePart= 
+Variation38=Designator=L16|UniqueId=\YITOPIVH\YMAYIKMB|Kind=1|AlternatePart= 
+Variation39=Designator=R162|UniqueId=\YITOPIVH\RVQASKKJ|Kind=1|AlternatePart= 
+Variation40=Designator=R164|UniqueId=\YITOPIVH\OEUYXXUF|Kind=1|AlternatePart= 
+Variation41=Designator=IC32|UniqueId=\SWUOOGFY\DVCGIYDS|Kind=1|AlternatePart= 
+Variation42=Designator=R15|UniqueId=\WVRSCELW|Kind=1|AlternatePart= 
+Variation43=Designator=C11|UniqueId=\JJTQIGWY|Kind=1|AlternatePart= 
+Variation44=Designator=C15|UniqueId=\FCPLIUKD|Kind=1|AlternatePart= 
+Variation45=Designator=IC4|UniqueId=\YITOPIVH\OLSEFIWB|Kind=1|AlternatePart= 
+Variation46=Designator=R68_1|UniqueId=\1MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation47=Designator=R68_2|UniqueId=\2MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation48=Designator=R68_3|UniqueId=\3MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation49=Designator=R68_4|UniqueId=\4MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation50=Designator=R68_5|UniqueId=\5MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation51=Designator=R68_6|UniqueId=\6MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation52=Designator=R68_7|UniqueId=\7MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation53=Designator=R68_8|UniqueId=\8MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation54=Designator=R68_9|UniqueId=\9MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation55=Designator=R68_10|UniqueId=\10MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation56=Designator=R68_11|UniqueId=\11MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation57=Designator=R68_12|UniqueId=\12MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation58=Designator=R68_13|UniqueId=\13MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation59=Designator=R68_14|UniqueId=\14MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation60=Designator=R68_15|UniqueId=\15MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation61=Designator=R68_16|UniqueId=\16MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation62=Designator=R68_17|UniqueId=\17MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation63=Designator=R68_18|UniqueId=\18MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation64=Designator=R68_19|UniqueId=\19MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation65=Designator=R68_20|UniqueId=\20MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation66=Designator=R68_21|UniqueId=\21MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation67=Designator=R68_22|UniqueId=\22MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation68=Designator=R68_23|UniqueId=\23MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation69=Designator=R68_24|UniqueId=\24MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation70=Designator=R68_25|UniqueId=\25MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation71=Designator=R68_26|UniqueId=\26MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation72=Designator=R68_27|UniqueId=\27MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation73=Designator=R68_28|UniqueId=\28MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation74=Designator=R68_29|UniqueId=\29MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation75=Designator=R68_30|UniqueId=\30MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation76=Designator=R68_31|UniqueId=\31MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation77=Designator=R68_32|UniqueId=\32MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Zotino\Panel\Panel_Zotino.DXF
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -274,7 +329,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=EDIF
 OutputName1=EDIF for PCB
@@ -380,7 +435,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -458,7 +513,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -480,7 +535,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -552,7 +607,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -585,11 +640,23 @@ OutputName6=Script Output
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -697,7 +764,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -741,7 +808,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -798,41 +865,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1157,6 +1194,7 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
