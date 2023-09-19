@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for Zotino
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -118,23 +118,6 @@ GenerateClassCluster=0
 DocumentUniqueId=IUEWJVWM
 
 [Document5]
-DocumentPath=Zotino.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
 DocumentPath=Zotino.PCBDOC
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SHIXJERX
 
-[Document7]
+[Document6]
 DocumentPath=Zotino.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,24 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WYDWVJPF
 
-[Document8]
-DocumentPath=..\Panel\Panel_Zotino.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
+[Document7]
 DocumentPath=..\Panel\Panel_Zotino.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJSBKNFY
 
-[Document10]
+[Document8]
 DocumentPath=Filter_simulations.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,94 +185,103 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FVBASOTS
 
+[Document9]
+DocumentPath=Zotino.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=4E8EF4FA-1004-4098-BFB3-EC9401DFD915
 Description=QFN
 AllowFabrication=0
 ParameterCount=0
-VariationCount=77
+VariationCount=69
 Variation1=Designator=CLIP28|UniqueId=\YGSJQCSF|Kind=1|AlternatePart= 
 Variation2=Designator=CLIP29|UniqueId=\DPSAAHRU|Kind=1|AlternatePart= 
 Variation3=Designator=CLIP30|UniqueId=\TQEMVBGW|Kind=1|AlternatePart= 
 Variation4=Designator=CLIP31|UniqueId=\IRDLSPWC|Kind=1|AlternatePart= 
 Variation5=Designator=CLIP32|UniqueId=\RXRCUEFY|Kind=1|AlternatePart= 
 Variation6=Designator=CLIP37|UniqueId=\MHEKWSXV|Kind=1|AlternatePart= 
-Variation7=Designator=CLIP36|UniqueId=\CWETXJPP|Kind=1|AlternatePart= 
-Variation8=Designator=CLIP35|UniqueId=\AGUQNFJT|Kind=1|AlternatePart= 
-Variation9=Designator=CLIP34|UniqueId=\ETQMRETP|Kind=1|AlternatePart= 
-Variation10=Designator=CLIP33|UniqueId=\YKFBVAUU|Kind=1|AlternatePart= 
-Variation11=Designator=CLIP38|UniqueId=\QVEWCVWE|Kind=1|AlternatePart= 
-Variation12=Designator=CLIP39|UniqueId=\KFIMJRAH|Kind=1|AlternatePart= 
-Variation13=Designator=CLIP40|UniqueId=\OFJPUJIH|Kind=1|AlternatePart= 
-Variation14=Designator=CLIP41|UniqueId=\SEUMKXNK|Kind=1|AlternatePart= 
-Variation15=Designator=CLIP42|UniqueId=\ULEMWKEI|Kind=1|AlternatePart= 
-Variation16=Designator=CLIP47|UniqueId=\ULOOFURS|Kind=1|AlternatePart= 
-Variation17=Designator=CLIP46|UniqueId=\KOFGGKKD|Kind=1|AlternatePart= 
-Variation18=Designator=CLIP45|UniqueId=\VDRAAJJG|Kind=1|AlternatePart= 
-Variation19=Designator=CLIP44|UniqueId=\VDTXIDCK|Kind=1|AlternatePart= 
-Variation20=Designator=CLIP43|UniqueId=\XWDQFOTS|Kind=1|AlternatePart= 
-Variation21=Designator=CLIP48|UniqueId=\GBJTWXIG|Kind=1|AlternatePart= 
-Variation22=Designator=CLIP49|UniqueId=\UQXDHNDJ|Kind=1|AlternatePart= 
-Variation23=Designator=CLIP50|UniqueId=\FISAUROM|Kind=1|AlternatePart= 
-Variation24=Designator=CLIP51|UniqueId=\YGQRDCVO|Kind=1|AlternatePart= 
-Variation25=Designator=CLIP52|UniqueId=\HFKMYCTW|Kind=1|AlternatePart= 
-Variation26=Designator=CLIP27|UniqueId=\WCTNSGEY|Kind=1|AlternatePart= 
-Variation27=Designator=IC5|UniqueId=\KKGGCGQP\GNPRJQGO|Kind=1|AlternatePart= 
-Variation28=Designator=IC1|UniqueId=\YITOPIVH\UJYUXNZU|Kind=1|AlternatePart= 
-Variation29=Designator=R1|UniqueId=\YITOPIVH\OVPFIIAA|Kind=1|AlternatePart= 
-Variation30=Designator=R26|UniqueId=\YITOPIVH\RMZLKQZH|Kind=1|AlternatePart= 
-Variation31=Designator=R30|UniqueId=\YITOPIVH\JAIEPOAX|Kind=1|AlternatePart= 
-Variation32=Designator=R31|UniqueId=\YITOPIVH\PCNFQYHV|Kind=1|AlternatePart= 
-Variation33=Designator=R32|UniqueId=\YITOPIVH\RQFCWSVQ|Kind=1|AlternatePart= 
-Variation34=Designator=R4|UniqueId=\YITOPIVH\ORUTEGKG|Kind=1|AlternatePart= 
-Variation35=Designator=C150|UniqueId=\YITOPIVH\GBSPDOJX|Kind=0|AlternatePart= 
-Variation36=Designator=C151|UniqueId=\YITOPIVH\TEFACOGS|Kind=0|AlternatePart= 
-Variation37=Designator=IC35|UniqueId=\YITOPIVH\WWSNYIGT|Kind=1|AlternatePart= 
-Variation38=Designator=L16|UniqueId=\YITOPIVH\YMAYIKMB|Kind=1|AlternatePart= 
-Variation39=Designator=R162|UniqueId=\YITOPIVH\RVQASKKJ|Kind=1|AlternatePart= 
-Variation40=Designator=R164|UniqueId=\YITOPIVH\OEUYXXUF|Kind=1|AlternatePart= 
-Variation41=Designator=IC32|UniqueId=\SWUOOGFY\DVCGIYDS|Kind=1|AlternatePart= 
-Variation42=Designator=R15|UniqueId=\WVRSCELW|Kind=1|AlternatePart= 
-Variation43=Designator=C11|UniqueId=\JJTQIGWY|Kind=1|AlternatePart= 
-Variation44=Designator=C15|UniqueId=\FCPLIUKD|Kind=1|AlternatePart= 
-Variation45=Designator=IC4|UniqueId=\YITOPIVH\OLSEFIWB|Kind=1|AlternatePart= 
-Variation46=Designator=R68_1|UniqueId=\1MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation47=Designator=R68_2|UniqueId=\2MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation48=Designator=R68_3|UniqueId=\3MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation49=Designator=R68_4|UniqueId=\4MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation50=Designator=R68_5|UniqueId=\5MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation51=Designator=R68_6|UniqueId=\6MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation52=Designator=R68_7|UniqueId=\7MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation53=Designator=R68_8|UniqueId=\8MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation54=Designator=R68_9|UniqueId=\9MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation55=Designator=R68_10|UniqueId=\10MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation56=Designator=R68_11|UniqueId=\11MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation57=Designator=R68_12|UniqueId=\12MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation58=Designator=R68_13|UniqueId=\13MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation59=Designator=R68_14|UniqueId=\14MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation60=Designator=R68_15|UniqueId=\15MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation61=Designator=R68_16|UniqueId=\16MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation62=Designator=R68_17|UniqueId=\17MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation63=Designator=R68_18|UniqueId=\18MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation64=Designator=R68_19|UniqueId=\19MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation65=Designator=R68_20|UniqueId=\20MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation66=Designator=R68_21|UniqueId=\21MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation67=Designator=R68_22|UniqueId=\22MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation68=Designator=R68_23|UniqueId=\23MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation69=Designator=R68_24|UniqueId=\24MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation70=Designator=R68_25|UniqueId=\25MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation71=Designator=R68_26|UniqueId=\26MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation72=Designator=R68_27|UniqueId=\27MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation73=Designator=R68_28|UniqueId=\28MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation74=Designator=R68_29|UniqueId=\29MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation75=Designator=R68_30|UniqueId=\30MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation76=Designator=R68_31|UniqueId=\31MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
-Variation77=Designator=R68_32|UniqueId=\32MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation7=Designator=CLIP34|UniqueId=\ETQMRETP|Kind=1|AlternatePart= 
+Variation8=Designator=CLIP33|UniqueId=\YKFBVAUU|Kind=1|AlternatePart= 
+Variation9=Designator=CLIP38|UniqueId=\QVEWCVWE|Kind=1|AlternatePart= 
+Variation10=Designator=CLIP39|UniqueId=\KFIMJRAH|Kind=1|AlternatePart= 
+Variation11=Designator=CLIP40|UniqueId=\OFJPUJIH|Kind=1|AlternatePart= 
+Variation12=Designator=CLIP41|UniqueId=\SEUMKXNK|Kind=1|AlternatePart= 
+Variation13=Designator=CLIP42|UniqueId=\ULEMWKEI|Kind=1|AlternatePart= 
+Variation14=Designator=CLIP47|UniqueId=\ULOOFURS|Kind=1|AlternatePart= 
+Variation15=Designator=CLIP46|UniqueId=\KOFGGKKD|Kind=1|AlternatePart= 
+Variation16=Designator=CLIP45|UniqueId=\VDRAAJJG|Kind=1|AlternatePart= 
+Variation17=Designator=CLIP44|UniqueId=\VDTXIDCK|Kind=1|AlternatePart= 
+Variation18=Designator=CLIP43|UniqueId=\XWDQFOTS|Kind=1|AlternatePart= 
+Variation19=Designator=IC5|UniqueId=\KKGGCGQP\GNPRJQGO|Kind=1|AlternatePart= 
+Variation20=Designator=IC1|UniqueId=\YITOPIVH\UJYUXNZU|Kind=1|AlternatePart= 
+Variation21=Designator=R1|UniqueId=\YITOPIVH\OVPFIIAA|Kind=1|AlternatePart= 
+Variation22=Designator=R26|UniqueId=\YITOPIVH\RMZLKQZH|Kind=1|AlternatePart= 
+Variation23=Designator=R30|UniqueId=\YITOPIVH\JAIEPOAX|Kind=1|AlternatePart= 
+Variation24=Designator=R31|UniqueId=\YITOPIVH\PCNFQYHV|Kind=1|AlternatePart= 
+Variation25=Designator=R32|UniqueId=\YITOPIVH\RQFCWSVQ|Kind=1|AlternatePart= 
+Variation26=Designator=R4|UniqueId=\YITOPIVH\ORUTEGKG|Kind=1|AlternatePart= 
+Variation27=Designator=IC35|UniqueId=\YITOPIVH\WWSNYIGT|Kind=1|AlternatePart= 
+Variation28=Designator=L16|UniqueId=\YITOPIVH\YMAYIKMB|Kind=1|AlternatePart= 
+Variation29=Designator=R162|UniqueId=\YITOPIVH\RVQASKKJ|Kind=1|AlternatePart= 
+Variation30=Designator=R164|UniqueId=\YITOPIVH\OEUYXXUF|Kind=1|AlternatePart= 
+Variation31=Designator=IC32|UniqueId=\SWUOOGFY\DVCGIYDS|Kind=1|AlternatePart= 
+Variation32=Designator=R15|UniqueId=\WVRSCELW|Kind=1|AlternatePart= 
+Variation33=Designator=C11|UniqueId=\JJTQIGWY|Kind=1|AlternatePart= 
+Variation34=Designator=C15|UniqueId=\FCPLIUKD|Kind=1|AlternatePart= 
+Variation35=Designator=IC4|UniqueId=\YITOPIVH\OLSEFIWB|Kind=1|AlternatePart= 
+Variation36=Designator=R68_1|UniqueId=\1MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation37=Designator=R68_2|UniqueId=\2MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation38=Designator=R68_3|UniqueId=\3MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation39=Designator=R68_4|UniqueId=\4MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation40=Designator=R68_5|UniqueId=\5MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation41=Designator=R68_6|UniqueId=\6MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation42=Designator=R68_7|UniqueId=\7MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation43=Designator=R68_8|UniqueId=\8MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation44=Designator=R68_9|UniqueId=\9MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation45=Designator=R68_10|UniqueId=\10MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation46=Designator=R68_11|UniqueId=\11MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation47=Designator=R68_12|UniqueId=\12MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation48=Designator=R68_13|UniqueId=\13MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation49=Designator=R68_14|UniqueId=\14MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation50=Designator=R68_15|UniqueId=\15MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation51=Designator=R68_16|UniqueId=\16MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation52=Designator=R68_17|UniqueId=\17MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation53=Designator=R68_18|UniqueId=\18MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation54=Designator=R68_19|UniqueId=\19MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation55=Designator=R68_20|UniqueId=\20MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation56=Designator=R68_21|UniqueId=\21MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation57=Designator=R68_22|UniqueId=\22MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation58=Designator=R68_23|UniqueId=\23MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation59=Designator=R68_24|UniqueId=\24MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation60=Designator=R68_25|UniqueId=\25MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation61=Designator=R68_26|UniqueId=\26MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation62=Designator=R68_27|UniqueId=\27MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation63=Designator=R68_28|UniqueId=\28MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation64=Designator=R68_29|UniqueId=\29MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation65=Designator=R68_30|UniqueId=\30MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation66=Designator=R68_31|UniqueId=\31MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation67=Designator=R68_32|UniqueId=\32MHLYCKYB\WXPRQJMT|Kind=1|AlternatePart= 
+Variation68=Designator=IC14|UniqueId=\YITOPIVH\XCRRQCXE|Kind=1|AlternatePart= 
+Variation69=Designator=R36|UniqueId=\YITOPIVH\KBMQSJMA|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=C:\Users\PS\AppData\Local\Temp\Pro9314.xls
-DItemRevisionGUID=
+[Parameter1]
+Name=P_version
+Value=1.4.3
 
 [Configuration1]
 Name=Default Configuration
@@ -329,7 +304,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=Project Outputs for Zotino
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -451,13 +426,13 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType2=PCB Print
 OutputName2=PCB Prints
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType3=Schematic Print
@@ -481,7 +456,7 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType6=PCBLIB Print
 OutputName6=PCBLIB Prints
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType7=Report Print
@@ -514,6 +489,30 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Harness Layout Drawing Print
+OutputName12=Harness Layout Drawing Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=Harness Wiring Diagram Print
+OutputName13=Harness Wiring Diagram Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=PCBDrawing
+OutputName15=Draftsman
+OutputDocumentPath15=
+OutputVariantName15=[No Variations]
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -545,13 +544,13 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType2=Drill
 OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType3=Final
@@ -568,7 +567,7 @@ OutputDefault4=0
 OutputType5=Mask
 OutputName5=Solder/Paste Mask Prints
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType6=NC Drill
@@ -584,7 +583,7 @@ OutputDefault7=0
 OutputType8=Plane
 OutputName8=Power-Plane Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType9=Test Points
@@ -601,12 +600,12 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 OutputType11=Gerber X2
 OutputName11=Gerber X2 Files
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 OutputType12=IPC2581
 OutputName12=IPC-2581 Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
 
 [OutputGroup6]
@@ -620,6 +619,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -657,6 +668,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -870,36 +887,41 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1032,6 +1054,8 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
+Type121=1
 
 [Difference Levels]
 Type1=1
@@ -1102,6 +1126,7 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1113,11 +1138,11 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=0
 Type13=0
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -1223,13 +1248,37 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
-MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
 Type126=1
+Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
