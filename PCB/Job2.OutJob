@@ -1,0 +1,192 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Job2.OutJob
+Description=
+TargetOutputMedium=Folder Structure
+VariantName=QFN
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=Brother DCP-B7520DW series Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=PDF
+OutputMedium2_Type=Publish
+OutputMedium3=Folder Structure
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Video
+OutputMedium4_Type=Multimedia
+OutputType1=Gerber
+OutputName1=Gerber Files
+OutputCategory1=Fabrication
+OutputDocumentPath1=Zotino-DIOT.PCBDOC
+OutputVariantName1=
+OutputEnabled1=1
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium3=3
+OutputEnabled1_OutputMedium4=0
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=SHIXJERX|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842754~1,16777218~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16973837~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\48695\Qsync (1)\Sinara\Zotino-DIOT\PCB\Zotino-DIOT.PCBDOC
+OutputType2=NC Drill
+OutputName2=NC Drill Files
+OutputCategory2=Fabrication
+OutputDocumentPath2=Zotino-DIOT.PCBDOC
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=4
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\48695\Qsync (1)\Sinara\Zotino-DIOT\PCB\Zotino-DIOT.PCBDOC
+OutputType3=Pick Place
+OutputName3=Generates pick and place files
+OutputCategory3=Assembly
+OutputDocumentPath3=Zotino-DIOT.PCBDOC
+OutputVariantName3=
+OutputEnabled3=1
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=1
+OutputEnabled3_OutputMedium4=0
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:SMD,Fixed:False,Metric:False,Visible:False,Sort:None,Position:71,Type:0|Column#18=Name:Manufacturer1 Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49,Type:0|Column#19=Name:ComponentLink3Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|Column#20=Name:CreateDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#21=Name:Output Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56,Type:0|Column#22=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#23=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80,Type:0|Column#24=Name:Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#25=Name:ClassName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#26=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61,Type:0|Column#27=Name:Manufacturer1 ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47,Type:0|Column#28=Name:Mounted,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50,Type:0|Column#29=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64,Type:0|Column#30=Name:PSRR(dB),Fixed:False,Metric:False,Visible:False,Sort:None,Position:66,Type:0|Column#31=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51,Type:0|Column#32=Name:Vin Min(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:79,Type:0|Column#33=Name:Family,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#34=Name:Part Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60,Type:0|Column#35=Name:PressFit,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65,Type:0|Column#36=Name:Vout Max(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:81,Type:0|Column#37=Name:TC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:75,Type:0|Column#38=Name:Iout(mA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#39=Name:ComponentLink3URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#40=Name:Number of Outputs,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55,Type:0|Column#41=Name:Pin Count,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63,Type:0|Column#42=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67,Type:0|Column#43=Name:Sense,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69,Type:0|Column#44=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76,Type:0|Column#45=Name:Table,Fixed:False,Metric:False,Visible:False,Sort:None,Position:74,Type:0|Column#46=Name:Noise(uV),Fixed:False,Metric:False,Visible:False,Sort:None,Position:54,Type:0|Column#47=Name:ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#48=Name:Device,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#49=Name:Mouser Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52,Type:0|Column#50=Name:Vout Min(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:82,Type:0|Column#51=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#52=Name:Status,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73,Type:0|Column#53=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44,Type:0|Column#54=Name:Arrow Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#55=Name:Discrete Pass Element,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#56=Name:Bonding,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#57=Name:Code_JEDEC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#58=Name:Socket,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72,Type:0|Column#59=Name:RoHS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:68,Type:0|Column#60=Name:Shutdown Current(uA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:70,Type:0|Column#61=Name:Component Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#62=Name:PartNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62,Type:0|Column#63=Name:Author,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#64=Name:Manufacturer1 Example,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48,Type:0|Column#65=Name:Manufacturer_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46,Type:0|Column#66=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#67=Name:Vin Max(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:78,Type:0|Column#68=Name:Arrow Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#69=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57,Type:0|Column#70=Name:Isupply(mA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#71=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#72=Name:Datasheet Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#73=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77,Type:0|Column#74=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#75=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#76=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58,Type:0|Column#77=Name:Mouser Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53,Type:0|Column#78=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#79=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#80=Name:DatasheetVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#81=Name:Dropout Voltage(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#82=Name:PackageVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59,Type:0|Column#83=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45,Type:0|DocumentPath=C:\Users\48695\Qsync (1)\Sinara\Zotino-DIOT\PCB\Zotino-DIOT.PCBDOC
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
+OutputCategory4=Report
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=2
+OutputEnabled4_OutputMedium4=0
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
+Configuration4_Name2=General
+Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
+Configuration4_Name3=GroupOrder
+Configuration4_Item3=Comment=True|Footprint=True
+Configuration4_Name4=SortOrder
+Configuration4_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Name5=VisibleOrder
+Configuration4_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+
+[PublishSettings]
+OutputFilePath2=
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for Zotino-DIOT
+OutputPathMedia2=
+OutputPathMediaValue2=
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=Job2.PDF
+OutputFileNameMulti2=
+UseOutputNameForMulti2=1
+OutputFileNameSpecial2=
+OpenOutput2=1
+PromptOverwrite2=1
+PublishMethod2=0
+ZoomLevel2=50
+FitSCHPrintSizeToDoc2=1
+FitPCBPrintSizeToDoc2=1
+GenerateNetsInfo2=1
+MarkPins2=1
+MarkNetLabels2=1
+MarkPortsId2=1
+GenerateTOC2=1
+ShowComponentParameters2=1
+GlobalBookmarks2=0
+PDFACompliance2=Disabled
+PDFVersion2=Default
+OutputFilePath3=C:\Users\48695\Qsync (1)\Sinara\Zotino-DIOT\PCB\Project Outputs for Zotino-DIOT\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for Zotino-DIOT
+OutputPathMedia3=
+OutputPathMediaValue3=
+OutputPathOutputer3=[Output Type]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=
+OutputFileNameMulti3=
+UseOutputNameForMulti3=1
+OutputFileNameSpecial3=
+OpenOutput3=1
+OutputFilePath4=
+ReleaseManaged4=1
+OutputBasePath4=Project Outputs for Zotino-DIOT
+OutputPathMedia4=
+OutputPathMediaValue4=
+OutputPathOutputer4=[Output Type]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=
+OutputFileNameMulti4=
+UseOutputNameForMulti4=1
+OutputFileNameSpecial4=
+OpenOutput4=1
+PromptOverwrite4=1
+PublishMethod4=5
+ZoomLevel4=50
+FitSCHPrintSizeToDoc4=1
+FitPCBPrintSizeToDoc4=1
+GenerateNetsInfo4=1
+MarkPins4=1
+MarkNetLabels4=1
+MarkPortsId4=1
+MediaFormat4=Windows Media file (*.wmv,*.wma,*.asf)
+FixedDimensions4=1
+Width4=352
+Height4=288
+MultiFile4=0
+FramesPerSecond4=25
+FramesPerSecondDenom4=1
+AviPixelFormat4=7
+AviCompression4=MP42 MS-MPEG4 V2
+AviQuality4=100
+FFmpegVideoCodecId4=12
+FFmpegPixelFormat4=0
+FFmpegQuality4=80
+WmvVideoCodecName4=Windows Media Video V7
+WmvQuality4=80
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=
+OpenOutputs2=1
+RelativeOutputPath3=C:\Users\48695\Qsync (1)\Sinara\Zotino-DIOT\PCB\Project Outputs for Zotino-DIOT\
+OpenOutputs3=1
+AddToProject3=1
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=
+OpenOutputs4=1
+
